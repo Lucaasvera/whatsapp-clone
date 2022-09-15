@@ -1,0 +1,27 @@
+.action-list {
+  block-size: var(--actionsSize);
+  padding: 1rem;
+  background-color: var(--grey-4);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.write-message {
+  flex: 1;
+  font: var(--body-16regular);
+  border: none;
+  border-radius: 50px;
+  block-size: 1.25rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+.write-message:focus {
+  border: none;
+  outline: none;
+}
+.write-message::-webkit-input-placeholder {
+  font: var(--body-16regular);
+  color: var(--grey);
+}

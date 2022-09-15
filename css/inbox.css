@@ -1,0 +1,14 @@
+@import "./search.css";
+@import "./chatitem.css";
+.inbox {
+  inline-size: 27.4375rem;
+  flex-shrink: 0;
+  block-size: 100vh;
+}
+.inbox-chatList {
+  overflow: auto;
+  block-size: calc(100vh - 160px);
+}
+.inbox .header {
+  box-shadow: inset -1px 0px 0px 0px rgba(102, 102, 103, 0.5);
+}

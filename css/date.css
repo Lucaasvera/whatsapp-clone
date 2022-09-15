@@ -1,0 +1,9 @@
+.date {
+  /* border: 1px solid purple; */
+  font: var(--body-16regular);
+  background: #e5f2fa;
+
+  align-self: center;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+}
